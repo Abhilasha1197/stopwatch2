@@ -1,0 +1,43 @@
+
+ body{
+    display: flex;
+    justify-content:center ; 
+
+}
+  
+ .myWatch{
+    background-color: rgba(2, 2, 59, 0.942);
+    width:500px;
+    height: 200px;
+    border: hidden;
+    border-radius: 12px;
+    display: grid;
+    justify-items: center;
+    
+ }
+ #StartTime{
+    color: whitesmoke;
+    align-self: center;
+    justify-self: center;
+    font-size: 60px;
+    
+    
+}
+ .myButtons button{
+     border-radius: 11px;
+     font-size: 25px;
+     background-color: brown;
+ }
+ button:hover {
+     opacity: 0.7;
+ }
+ button:active{
+     background-color: var(--dark);
+ }
+
+ .footer{
+    background-color: beige;
+    
+    align-self: center;
+    border-radius: 12px;
+ }
